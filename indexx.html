@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Technologie</title>
+    <link rel="stylesheet" href="styl.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Nowoczesne Technologie</h1>
+    </header>
+    <main>
+      <section class="tech" id="tech1">
+        <h2>Sztuczna Inteligencja</h2>
+        <p>
+          Sztuczna inteligencja (SI) to dziedzina nauki zajmująca się tworzeniem
+          inteligentnych systemów zdolnych do wykonywania zadań wymagających
+          ludzkiej inteligencji.
+        </p>
+        <button onclick="showDetails('tech1')">Więcej szczegółów</button>
+        <div class="details" id="details-tech1">
+          <p>Zastosowania: Rozpoznawanie obrazów, chatboty, analizy danych</p>
+          <p>Przyszłość: Samoświadome systemy, inteligentne miasta</p>
+        </div>
+      </section>
+      <section class="tech" id="tech2">
+        <h2>Blockchain</h2>
+        <p>
+          Blockchain to technologia umożliwiająca tworzenie zdecentralizowanych
+          i bezpiecznych rejestrów danych. Jest fundamentem kryptowalut takich
+          jak Bitcoin.
+        </p>
+        <button onclick="showDetails('tech2')">Więcej szczegółów</button>
+        <div class="details" id="details-tech2">
+          <p>
+            Zastosowania: Kryptowaluty, inteligentne kontrakty, systemy
+            głosowania
+          </p>
+          <p>Przyszłość: Zdecentralizowane finanse (DeFi), ochrona danych</p>
+        </div>
+      </section>
+      <section class="tech" id="tech3">
+        <h2>Internet Rzeczy (IoT)</h2>
+        <p>
+          Internet Rzeczy (IoT) to sieć fizycznych urządzeń połączonych z
+          internetem, które mogą gromadzić i wymieniać dane.
+        </p>
+        <button onclick="showDetails('tech3')">Więcej szczegółów</button>
+        <div class="details" id="details-tech3">
+          <p>
+            Zastosowania: Inteligentne domy, monitorowanie zdrowia, przemysł 4.0
+          </p>
+          <p>Przyszłość: Autonomiczne pojazdy, inteligentne miasta</p>
+        </div>
+      </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
